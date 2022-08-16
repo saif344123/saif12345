@@ -1,0 +1,544 @@
+<html>
+    <title>My Page 1</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.common.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.rtl.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.default.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.mobile.all.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="design1.css">
+        <script src="design1.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+
+    <body>
+
+        <div class="header pt-4 pb-2 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-2 site-logo">
+                                <img src="images/logo (2).png">
+                            </div>
+                            <div class="row d-block">
+                                <div class="col-md-6 d-flex">
+                                      <div class="custom-wrapper">
+                                        <input type="text" placeholder="search" id="myInput1">
+                                        <i class="fa fa-search input-icon1"></i>
+                                      </div>
+                                      <div class="custom-wrapper">
+                                        <input type="text" placeholder="search" id="myInput2">
+                                        <i class="fa fa-map-marker input-icon2"></i>
+                                      </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <ul class="d-flex">
+                                        <li><a href="#">Dispensaries</a></li>
+                                        <li><a href="#">Deliveries</a></li>
+                                        <li><a href="#">Maps</a></li>
+                                        <li><a href="#">Brands</a></li>
+                                        <li><a href="#">Products</a></li>
+                                        <li><a href="#">Deals</a></li>
+                                        <li><a href="#">Strains</a></li>
+                                      </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="k-badge-container">
+                            <span class="k-icon k-i-bell k-badge-overlay k-icon-36"></span>
+                            <span class="badge">6</span>
+                          </span>
+                          
+                           <span class="k-badge-container">
+                            <span class="k-icon k-i-heart k-badge-overlay k-icon-36"></span>
+                            <span class="badge">6</span>
+                          </span>
+                          
+                           <span class="k-badge-container">
+                            <span class="k-icon k-i-cart k-badge-overlay k-icon-36"></span>
+                            <span class="badge">7</span>
+                          </span>
+                          <button type="button" id="signin">signin</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-slider">
+            <div class="container">
+                <div class="row" id="slider-images">
+                    <div class="col-md-12">
+                        <div class="slideshow-container">
+                            <div class="mySlides">
+                              <img src="images/1.jpg" id="slide-image" >
+                            </div>
+                            <div class="mySlides">
+                              <img src="images/2.jpg" id="slide-image">
+                            </div>
+                            <div class="mySlides">
+                              <img src="images/3.jpg" id="slide-image">
+                            </div>
+                            <div class="mySlides">
+                                <img src="images/4.jpg" id="slide-image">
+                              </div>
+                              <div class="mySlides">
+                                <img src="images/5.jpg" id="slide-image">
+                              </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                            <br>
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+                              <span class="dot" onclick="currentSlide(4)"></span> 
+                              <span class="dot" onclick="currentSlide(5)"></span> 
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8"><strong>Delivery Services</strong></div>
+                <div class="col-md-4" id="heading-right"><a href="#"><strong>View all ></strong></a></div>
+            </div>
+        </div>
+
+        <div class="subslider1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="owl-carousel">
+                        <div class="card">
+                            <img class="card-img" src="images/1.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                               </a>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                              </a>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/4.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                               </a>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                              </a>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div class="star-rating">
+                                <ul class="list-inline d-flex">
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/4.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                               </a>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                              </a>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/2.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="card-img-overlay1">
+                                <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/4.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/3.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/4.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+
+                         <div class="card">
+                            <img class="card-img" src="images/4.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/4.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                         <div class="card">
+                            <img class="card-img" src="images/5.jpg">
+                            <div class="card-img-overlay">
+                              <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="card-img-overlay1">
+                              <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                           </div>
+                            <div class="card-body">
+                              Tune in next week to find out!
+                              <div>
+                                <ul class="list-inline d-flex">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                              </div>
+                              <div>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>  
+                            </div>
+                         </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8"><strong>Dispensary storefronts</strong></div>
+                <div class="col-md-4" id="heading-right"><a href="#"><strong>View all ></strong></a></div>
+            </div>
+        </div>
+
+        <div class="subslider2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="owl-carousel">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <strong>Deals nearby</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>THERE ARE NO DEALS IN YOUR AREA AT THIS TIME. CHECK BACK AGAIN SOON!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="deal-1">
+                    <img src="images/b.jpg">
+                </div>
+                <div class="col-md-6" id="deal-2">
+                    <img src="images/a.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong>Browse by category</strong>
+                </div>
+                <div class="col-md-4" id="heading-right"><a href="#"><strong>View all ></strong></a></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="images/c.jpg">
+                        <div class="container">
+                          <p>VAPE CARTRIDGES / PENS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="images/d.jpg">
+                        <div class="container">
+                          <p>VAPE CARTRIDGES / PENS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="images/e.jpg">
+                        <div class="container">
+                          <p>VAPE CARTRIDGES / PENS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="images/f.jpg">
+                        <div class="container">
+                          <p>VAPE CARTRIDGES / PENS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="images/g.jpg">
+                        <div class="container">
+                          <p>VAPE CARTRIDGES / PENS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card">
+                        <img src="images/h.jpg">
+                        <div class="container">
+                          <p>VAPE CARTRIDGES / PENS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="content-area">
+            <div class="row">
+                <div class="col-md-12" id="create-account">
+                    <h3>Create your account to get started.</h3>
+                    <a href="#" class="button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 site-logo">
+                    <img src="images/logo (2).png"><br><br>
+                    <p>A community connecting cannabis consumers, patients, retailers, doctors, and brands</p><br>
+                    <strong>Phone:</strong>
+                    +1 5589 55488 55<br>
+                    <strong>Email:</strong>
+                    info@example.com
+                </div>
+                <div class="col-md-2">kldfjkksjd</div>
+                <div class="col-md-2">kldfjkksjd</div>
+                <div class="col-md-2">kldfjkksjd</div>
+                <div class="col-md-3">kldfjkksjd</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">jdoid</div>
+                  <div class="col-md-6">kdjll</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

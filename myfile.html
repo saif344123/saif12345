@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<style>
+  .card-img-overlay1 {
+    position: absolute;
+    right: -15px;
+    bottom: 200px;
+    padding: 1.25rem;
+    top: -10px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    right: 3px;
+    bottom: 62px;
+    padding: 1.25rem;
+    left: unset;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#heart {
+  color: grey;  
+  font-size: 50px;
+}
+
+#heart.red {
+  color: red;
+}
+</style>
+
+      </head>
+<body>
+  <div class="card">
+    <img class="card-img" src="images/1.jpg">
+    <div class="card-img-overlay">
+       <i class="fa fa-map-marker" style="color:#FF0000"></i>
+    </div>
+    <div class="card-img-overlay1">
+      <i class="fa fa-heart" id="heart" ></i>
+      <script>
+        (function() {
+        const heart = document.getElementById('heart');
+        heart.addEventListener('click', function() {
+          heart.classList.toggle('red');
+        });
+      })();
+      </script>
+    </div>
+    <div class="card-body">
+      Tune in next week to find out!
+    </div>
+ </div>
+</body>
+</html>
